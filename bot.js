@@ -355,7 +355,7 @@ client.on('ready', () => {
 
 
 var adminprefix = "4";
-const devs = ['461468630773661699'];
+const devs = ['446999223183998987'];
 client.on('message', message => {//Toxic Codes
     var argresult = message.content.split(` `).slice(1).join(' ');//Toxic Code
   if (message.content.startsWith(adminprefix + 'setg')) {
